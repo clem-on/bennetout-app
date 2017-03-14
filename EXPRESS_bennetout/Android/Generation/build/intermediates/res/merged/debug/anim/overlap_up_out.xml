@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<translate
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:fromYDelta="0"
+	    android:toYDelta="0"
+	    android:duration="@android:integer/config_longAnimTime" 
+	    android:detachWallpaper="true"
+	/>
+</set><!-- From: file:/D:/Mes%20Documents/Workspace/bennetout-app/EXPRESS_bennetout/Android/Generation/res/anim/overlap_up_out.xml -->

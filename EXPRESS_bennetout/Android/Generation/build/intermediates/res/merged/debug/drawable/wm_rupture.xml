@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/wm_rupture_on" android:state_expanded="true" />
+    <item android:drawable="@drawable/wm_rupture_off" />
+</selector>
+<!-- From: file:/D:/Mes%20Documents/Workspace/bennetout-app/EXPRESS_bennetout/Android/Generation/res/drawable/wm_rupture.xml -->

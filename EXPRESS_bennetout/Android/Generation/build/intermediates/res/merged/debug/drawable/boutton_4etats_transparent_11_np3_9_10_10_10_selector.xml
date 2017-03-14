@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"><item android:drawable="@drawable/boutton_4etats_transparent_11_np3_9_10_10_10_selectordisabled" android:state_enabled="false"/><item android:drawable="@drawable/boutton_4etats_transparent_11_np3_9_10_10_10_selectorpressed" android:state_pressed="true"/><item android:drawable="@drawable/boutton_4etats_transparent_11_np3_9_10_10_10_selectorfocus" android:state_focused="true"/><item android:drawable="@drawable/boutton_4etats_transparent_11_np3_9_10_10_10_selectornormal"/></selector>
+<!-- From: file:/D:/Mes%20Documents/Workspace/bennetout-app/EXPRESS_bennetout/Android/Generation/res/drawable/boutton_4etats_transparent_11_np3_9_10_10_10_selector.xml -->

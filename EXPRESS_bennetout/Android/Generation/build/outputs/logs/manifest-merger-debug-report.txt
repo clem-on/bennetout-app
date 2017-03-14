@@ -1,0 +1,171 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1-2855
+	package
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:70-111
+	android:versionName
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:112-141
+	android:versionCode
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:142-165
+		INJECTED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml
+		INJECTED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:166-196
+application
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:197-2181
+MERGED from [com.android.support:support-v4:22.2.1] D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:272-304
+	android:icon
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:305-348
+	android:largeHeap
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:349-373
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:210-271
+activity#com.masociete.express_bennetout.wdgen.GWDPEXPRESS_bennetout$WDLanceur
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:374-798
+	android:screenOrientation
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:611-645
+	android:label
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:438-470
+	android:configChanges
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:540-610
+	android:theme
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:471-539
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:384-437
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:646-787
+action#android.intent.action.MAIN
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:661-712
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:669-710
+category#android.intent.category.LAUNCHER
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:712-771
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:722-769
+activity#com.masociete.express_bennetout.wdgen.GWDFEXPRESS_Wifi$WDActiviteFenetre
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:798-1010
+	android:hardwareAccelerated
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:973-1008
+	android:configChanges
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:865-935
+	android:theme
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:936-972
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:808-864
+activity#com.masociete.express_bennetout.wdgen.GWDFEXPRESS_Accueil$WDActiviteFenetre
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1010-1225
+	android:hardwareAccelerated
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1188-1223
+	android:configChanges
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1080-1150
+	android:theme
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1151-1187
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1020-1079
+activity#fr.pcsoft.wdjava.ui.activite.WDActivite$BlankActivity
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1225-1413
+	xmlns:android
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1235-1293
+	android:theme
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1363-1411
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1294-1362
+activity#fr.pcsoft.wdjava.ui.searchbar.WDSearchActivity
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1413-1757
+	android:label
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1544-1576
+	xmlns:android
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1423-1481
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1482-1543
+intent-filter#android.intent.action.SEARCH
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1577-1661
+action#android.intent.action.SEARCH
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1592-1645
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1600-1643
+meta-data#android.app.searchable
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1661-1746
+	android:resource
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1710-1744
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1672-1709
+provider#fr.pcsoft.wdjava.ui.searchbar.WDSearchHistory
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1757-1942
+	android:authorities
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1887-1940
+	xmlns:android
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1767-1825
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1826-1886
+service#fr.pcsoft.wdjava.core.service.WDServiceLocal
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1942-2012
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1951-2010
+meta-data#fr.pcsoft.first_window_name
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2012-2099
+	android:value
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2066-2097
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2023-2065
+meta-data#fr.pcsoft.multidex
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2099-2167
+	android:value
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2144-2165
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2110-2143
+uses-sdk
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2181-2249
+MERGED from [com.android.support:support-v4:22.2.1] D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2218-2247
+	android:minSdkVersion
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2191-2217
+supports-screens
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2249-2408
+	android:largeScreens
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2324-2351
+	android:smallScreens
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2267-2294
+	android:normalScreens
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2295-2323
+	android:xlargeScreens
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2352-2380
+	android:anyDensity
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2381-2406
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2408-2483
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2425-2481
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2483-2553
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2500-2551
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2553-2623
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2570-2621
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2623-2685
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2640-2683
+uses-feature#android.hardware.touchscreen
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2685-2768
+	android:required
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2743-2766
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2699-2742
+uses-feature#android.hardware.wifi
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2768-2844
+	android:required
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2819-2842
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2782-2818

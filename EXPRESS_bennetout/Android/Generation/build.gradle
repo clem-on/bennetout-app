@@ -1,0 +1,106 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+
+	dependencies {
+		classpath 'com.android.tools.build:gradle:1.3.0'
+	}
+}
+repositories {
+	mavenCentral()
+}
+apply plugin: 'com.android.application'
+archivesBaseName = 'EXPRESS_bennetout'
+android {
+	compileSdkVersion 23
+	buildToolsVersion '23.0.2'
+	useLibrary 'org.apache.http.legacy'
+	
+	sourceSets {
+		main {
+			manifest.srcFile 'AndroidManifest.xml'
+			java.srcDirs = ['src']
+			resources.srcDirs = ['src']
+			res.srcDirs = ['res']
+			assets.srcDirs = ['assets']
+			aidl.srcDirs = ['src']
+			jniLibs.srcDirs = ['libs']
+		}
+	}
+	lintOptions {
+		abortOnError false
+	}
+	signingConfigs {
+		release {
+			
+			storePassword ''
+			keyAlias ''
+			keyPassword ''			
+		}
+	}
+	aaptOptions {
+		noCompress 'FNC'
+	}
+	
+android {
+	dexOptions {
+		incremental = true
+		preDexLibraries = false
+		jumboMode = false
+		javaMaxHeapSize = '2048m'
+    }
+
+}
+	buildTypes {
+		debug {
+		zipAlignEnabled true
+		minifyEnabled false
+		proguardFile file('C:\\WINDEV Mobile 21 Express\\Programmes\\FrameWork\\Android\\dep\\prg.dat')
+        multiDexEnabled false
+		}
+		release {
+		zipAlignEnabled true
+		signingConfig signingConfigs.release
+		minifyEnabled false
+		proguardFile file('C:\\WINDEV Mobile 21 Express\\Programmes\\FrameWork\\Android\\dep\\prg.dat')
+		multiDexEnabled false
+		}
+		applicationVariants.all { variant ->  
+			variant.outputs.each { output ->
+				def alignedOutputFile = output.outputFile
+				// Customise APK filenames (to include build version)
+				if (variant.buildType.zipAlignEnabled) {
+					output.outputFile = getProject().file("bin/" + archivesBaseName + ".apk")
+				}
+			}
+		}
+	}
+
+}
+
+dependencies {
+	// Remote binary dependency
+	compile 'com.android.support:support-v4:22.2.+'
+	compile 'com.android.support:appcompat-v7:22.2.+'
+
+	// Local binary dependency
+	compile fileTree(dir: 'libs', include: ['*.jar'], exclude: 'libs/fmkJava.jar')
+	compile files('libs/fmkJava.jar')
+}
+
+gradle.projectsEvaluated {
+	preBuild.dependsOn(makeJar)
+	tasks.withType(JavaCompile) {
+		options.warnings = false
+	}
+}
+
+task makeJar(type: Jar) {
+baseName = 'fmkJava'
+destinationDir=new File('libs')
+from fileTree(dir: 'libs', include: ['**/*.class'])
+outputs.upToDateWhen {
+        archivePath.exists()
+    }
+}
