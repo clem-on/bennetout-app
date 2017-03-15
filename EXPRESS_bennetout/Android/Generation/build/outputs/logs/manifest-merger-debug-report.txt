@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1-2855
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:1-2916
 	package
 		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:70-111
 	android:versionName
@@ -145,27 +145,31 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2408-2483
 	android:name
 		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2425-2481
+uses-permission#android.permission.INTERNET
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2483-2544
+	android:name
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2500-2542
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2483-2553
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2544-2614
 	android:name
-		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2500-2551
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2561-2612
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2553-2623
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2614-2684
 	android:name
-		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2570-2621
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2631-2682
 uses-permission#android.permission.WAKE_LOCK
-ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2623-2685
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2684-2746
 	android:name
-		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2640-2683
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2701-2744
 uses-feature#android.hardware.touchscreen
-ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2685-2768
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2746-2829
 	android:required
-		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2743-2766
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2804-2827
 	android:name
-		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2699-2742
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2760-2803
 uses-feature#android.hardware.wifi
-ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2768-2844
+ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2829-2905
 	android:required
-		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2819-2842
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2880-2903
 	android:name
-		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2782-2818
+		ADDED from D:\Mes Documents\Workspace\bennetout-app\EXPRESS_bennetout\Android\Generation\AndroidManifest.xml:2:2843-2879

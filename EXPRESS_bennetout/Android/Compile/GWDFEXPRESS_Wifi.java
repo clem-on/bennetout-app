@@ -2,7 +2,7 @@
  * Code généré par WinDev Mobile Express - NE PAS MODIFIER !
  * Objet WinDev Mobile Express : Fenêtre
  * Classe Android : EXPRESS_Wifi
- * Date : 14/03/2017 13:38:47
+ * Date : 15/03/2017 17:33:48
  * Version de wdjava.dll  : 21.0.118.0
  */
 
@@ -1026,9 +1026,9 @@ super.selectionLigne();
 // Déclaration des variables locales au traitement
 // (En WLangage les variables sont encore visibles après la fin du bloc dans lequel elles sont déclarées)
 ////////////////////////////////////////////////////////////////////////////
-WDObjet vWD_sIdentifiant = new WDChaineU();
+WDObjet vWD_sIdentifiant = new WDChaineA();
 
-WDObjet vWD_sMotDePasse = new WDChaineU();
+WDObjet vWD_sMotDePasse = new WDChaineA();
 
 WDObjet vWD_bRes = new WDBooleen();
 
@@ -1049,7 +1049,7 @@ vWD_sIdentifiant.setValeur(mWD_ATT_Identifiant);
 // SI ATT_Connecte <> "Connecté" ALORS
 if(mWD_ATT_Connecte.opDiff("Connecté"))
 {
-// 	SELON Dialogue("Voulez-vous vous connecter à ce réseau WIFI %1 ?", ATT_SSID)
+// 	SELON Dialogue("Voulez-vous vous connecter à ce réseau WIFI ?", ATT_SSID)
 // Délimiteur de visibilité pour ne pas étendre la visibilité de la variable temporaire _WDExpSelon
 {
 WDObjet _WDExpSelon0 = WDAPIDialogue.dialogue(0,new String[] {mWD_ATT_SSID.getString()} );
@@ -1061,17 +1061,26 @@ if(vWD_sIdentifiant.opDiff(""))
 // 				bRes = WiFiConnecte(sIdentifiant) 
 vWD_bRes.setValeur(WDAPIWiFi.wifiConnecte(vWD_sIdentifiant.getString()));
 
+// 				ToastAffiche("Le réseaux fait partie des réseaux déjà configurés")
+WDAPIToast.toastAffiche(new WDChaineA("Le réseaux fait partie des réseaux déjà configurés").getString());
+
 }
 else
 {
 // 				sSécurité est une chaîne
-WDObjet vWD_sSecurite = new WDChaineU();
+WDObjet vWD_sSecurite = new WDChaineA();
 
 
+
+// 				ToastAffiche("Le réseaux ne fait pas partie des réseaux déjà configurés")
+WDAPIToast.toastAffiche(new WDChaineA("Le réseaux ne fait pas partie des réseaux déjà configurés").getString());
 
 // 				SI ATT_Sécurité = "Non sécurisé" ALORS
 if(mWD_ATT_Securite.opEgal("Non sécurisé"))
 {
+// 					ToastAffiche("Le réseaux n'est pas sécurisé")
+WDAPIToast.toastAffiche(new WDChaineA("Le réseaux n'est pas sécurisé").getString());
+
 // 					sSécurité = wifiSecuritéAucune
 vWD_sSecurite.setValeur("NONE");
 
@@ -1086,6 +1095,9 @@ vWD_sSecurite.setValeur(mWD_ATT_Securite);
 // 				SI sSécurité <> wifiSecuritéAucune ALORS
 if(vWD_sSecurite.opDiff("NONE"))
 {
+// 					ToastAffiche("Le réseaux est sécurisé")
+WDAPIToast.toastAffiche(new WDChaineA("Le réseaux est sécurisé").getString());
+
 // 					SELON Saisie("Veuillez entrer le mot de passe",sMotDePasse)
 // Délimiteur de visibilité pour ne pas étendre la visibilité de la variable temporaire _WDExpSelon
 {
@@ -1106,7 +1118,7 @@ else if(_WDExpSelon1.opEgal(2))
 else
 {
 // 					sIdentifiant = WiFiAjouteReseau(ATT_SSID, ATT_BSSID, sSécurité, "", Faux)
-vWD_sIdentifiant.setValeur(WDAPIWiFi.wifiAjouteReseau(mWD_ATT_SSID.getString(),mWD_ATT_BSSID.getString(),vWD_sSecurite.getString(),"",false));
+vWD_sIdentifiant.setValeur(WDAPIWiFi.wifiAjouteReseau(mWD_ATT_SSID.getString(),mWD_ATT_BSSID.getString(),vWD_sSecurite.getString(),new WDChaineA("").getString(),false));
 
 }
 
@@ -1939,7 +1951,7 @@ WDAPIZoneRepetee.zoneRepeteeSupprimeTout(mWD_ZR_ReseauWifiDispo);
 if(WDAPIWiFi.wifiEtat().opEgal(1))
 {
 // 	sListe est une chaîne = WiFiDétectePointAccès()
-WDObjet vWD_sListe = new WDChaineU();
+WDObjet vWD_sListe = new WDChaineA();
 
 
 vWD_sListe.setValeur(WDAPIWiFi.wifiDetectePointAcces());
@@ -1949,47 +1961,47 @@ vWD_sListe.setValeur(WDAPIWiFi.wifiDetectePointAcces());
 IWDParcours parcours1 = null;
 try
 {
-WDObjet vWD_sPointAcces = new WDChaineU();
+WDObjet vWD_sPointAcces = new WDChaineA();
 parcours1 = WDParcoursSousChaine.pourTout(vWD_sPointAcces, null, null, vWD_sListe, "\r\n", 0x2);
 while(parcours1.testParcours())
 {
 // 		sIdentifiant est une chaîne = ExtraitChaîne(sPointAcces,1, TAB)
-WDObjet vWD_sIdentifiant = new WDChaineU();
+WDObjet vWD_sIdentifiant = new WDChaineA();
 
 
-vWD_sIdentifiant.setValeur(WDAPIChaine.extraitChaine(parcours1.getVariableParcours(),1,new WDChaineU("\t")));
+vWD_sIdentifiant.setValeur(WDAPIChaine.extraitChaine(parcours1.getVariableParcours(),1,new WDChaineA("\t")));
 
 
 // 		sSSID est une chaîne = ExtraitChaîne(sPointAcces,2, TAB)
-WDObjet vWD_sSSID = new WDChaineU();
+WDObjet vWD_sSSID = new WDChaineA();
 
 
-vWD_sSSID.setValeur(WDAPIChaine.extraitChaine(parcours1.getVariableParcours(),2,new WDChaineU("\t")));
+vWD_sSSID.setValeur(WDAPIChaine.extraitChaine(parcours1.getVariableParcours(),2,new WDChaineA("\t")));
 
 
 // 		sBSSID est une chaîne = ExtraitChaîne(sPointAcces,3, TAB)
-WDObjet vWD_sBSSID = new WDChaineU();
+WDObjet vWD_sBSSID = new WDChaineA();
 
 
-vWD_sBSSID.setValeur(WDAPIChaine.extraitChaine(parcours1.getVariableParcours(),3,new WDChaineU("\t")));
+vWD_sBSSID.setValeur(WDAPIChaine.extraitChaine(parcours1.getVariableParcours(),3,new WDChaineA("\t")));
 
 
 // 		sSécurité est une chaîne = ExtraitChaîne(sPointAcces,4, TAB)
-WDObjet vWD_sSecurite = new WDChaineU();
+WDObjet vWD_sSecurite = new WDChaineA();
 
 
-vWD_sSecurite.setValeur(WDAPIChaine.extraitChaine(parcours1.getVariableParcours(),4,new WDChaineU("\t")));
+vWD_sSecurite.setValeur(WDAPIChaine.extraitChaine(parcours1.getVariableParcours(),4,new WDChaineA("\t")));
 
 
 // 		sPuissance est une chaîne = ExtraitChaîne(sPointAcces,5, TAB)
-WDObjet vWD_sPuissance = new WDChaineU();
+WDObjet vWD_sPuissance = new WDChaineA();
 
 
-vWD_sPuissance.setValeur(WDAPIChaine.extraitChaine(parcours1.getVariableParcours(),5,new WDChaineU("\t")));
+vWD_sPuissance.setValeur(WDAPIChaine.extraitChaine(parcours1.getVariableParcours(),5,new WDChaineA("\t")));
 
 
 // 		sConnecté est une chaine = ""
-WDObjet vWD_sConnecte = new WDChaineU();
+WDObjet vWD_sConnecte = new WDChaineA();
 
 
 vWD_sConnecte.setValeur("");
@@ -2175,8 +2187,8 @@ public void declarerGlobale(WDObjet[] WD_tabParam)
 
 
 
-// gsIDEncours est une chaine
-vWD_gsIDEncours = new WDChaineU();
+// gsIDEncours est une chaîne
+vWD_gsIDEncours = new WDChaineA();
 
 super.ajouterVariableGlobale("gsIDEncours",vWD_gsIDEncours);
 

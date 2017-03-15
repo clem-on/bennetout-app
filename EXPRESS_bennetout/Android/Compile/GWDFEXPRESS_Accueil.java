@@ -2,7 +2,7 @@
  * Code généré par WinDev Mobile Express - NE PAS MODIFIER !
  * Objet WinDev Mobile Express : Fenêtre
  * Classe Android : EXPRESS_Accueil
- * Date : 14/03/2017 14:01:57
+ * Date : 15/03/2017 17:54:53
  * Version de wdjava.dll  : 21.0.118.0
  */
 
@@ -519,13 +519,340 @@ public void activerEcoute()
 public GWDnot_good mWD_not_good;
 
 /**
+ * Connect
+ */
+class GWDConnect extends WDBouton
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°6 de EXPRESS_Accueil.Connect
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2938953950694719984l);
+
+super.setChecksum("724372508");
+
+super.setNom("Connect");
+
+super.setType(4);
+
+super.setLibelle("Connect");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("");
+
+super.setNavigable(true);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(104, 509);
+
+super.setTailleInitiale(48, 76);
+
+super.setPlan(0);
+
+super.setImageEtat(1);
+
+super.setImageFondEtat(5);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(134217727, 134217727);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(6);
+
+super.setAncrageInitial(0, 1000, 1000, 1000, 1000);
+
+super.setNumTab(2);
+
+super.setLettreAppel(65535);
+
+super.setTypeBouton(0);
+
+super.setTypeActionPredefinie(0);
+
+super.setBoutonOnOff(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setLibelleVAlign(1);
+
+super.setLibelleHAlign(1);
+
+super.setPresenceLibelle(true);
+
+super.setImage("", 0, 1);
+
+super.setStyleLibelleRepos(0xFFFFFF, creerPolice_GEN("Roboto", -8.000000, 0));
+
+super.setStyleLibelleSurvol(0xFFFFFF, creerPolice_GEN("Roboto", -8.000000, 0));
+
+super.setStyleLibelleEnfonce(0xFFFFFF, creerPolice_GEN("Roboto", -8.000000, 0));
+
+super.setCadreRepos(WDCadreFactory.creerCadre_GEN(2, 0x3643F4, 0x74, 0x3643F4, 4, 4, 1, 1));
+
+super.setCadreSurvol(WDCadreFactory.creerCadre_GEN(2, 0x3643F4, 0x74, 0x3643F4, 4, 4, 1, 1));
+
+super.setCadreEnfonce(WDCadreFactory.creerCadre_GEN(2, 0x3643F4, 0x74, 0x3643F4, 4, 4, 1, 1));
+
+super.setImageFond9Images(new int[] {1,2,1,2,2,2,1,2,1}, 10, 10, 10, 10);
+
+super.setImageFond("D:\\Mes Documents\\Workspace\\bennetout-app\\EXPRESS_bennetout\\Gabarits\\WM\\210 Material Design Red\\Material Design Red_Btn_Std@dpi160.png?E5_3NP_10_10_10_10", 1, 0, 1, 1);
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDConnect mWD_Connect;
+
+/**
+ * Read
+ */
+class GWDRead extends WDBouton
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°7 de EXPRESS_Accueil.Read
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2938954268527944588l);
+
+super.setChecksum("730017282");
+
+super.setNom("Read");
+
+super.setType(4);
+
+super.setLibelle("Read");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("");
+
+super.setNavigable(true);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(160, 509);
+
+super.setTailleInitiale(48, 76);
+
+super.setPlan(0);
+
+super.setImageEtat(1);
+
+super.setImageFondEtat(5);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(134217727, 134217727);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(7);
+
+super.setAncrageInitial(0, 1000, 1000, 1000, 1000);
+
+super.setNumTab(3);
+
+super.setLettreAppel(65535);
+
+super.setTypeBouton(0);
+
+super.setTypeActionPredefinie(0);
+
+super.setBoutonOnOff(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setLibelleVAlign(1);
+
+super.setLibelleHAlign(1);
+
+super.setPresenceLibelle(true);
+
+super.setImage("", 0, 1);
+
+super.setStyleLibelleRepos(0xFFFFFF, creerPolice_GEN("Roboto", -8.000000, 0));
+
+super.setStyleLibelleSurvol(0xFFFFFF, creerPolice_GEN("Roboto", -8.000000, 0));
+
+super.setStyleLibelleEnfonce(0xFFFFFF, creerPolice_GEN("Roboto", -8.000000, 0));
+
+super.setCadreRepos(WDCadreFactory.creerCadre_GEN(2, 0x3643F4, 0x74, 0x3643F4, 4, 4, 1, 1));
+
+super.setCadreSurvol(WDCadreFactory.creerCadre_GEN(2, 0x3643F4, 0x74, 0x3643F4, 4, 4, 1, 1));
+
+super.setCadreEnfonce(WDCadreFactory.creerCadre_GEN(2, 0x3643F4, 0x74, 0x3643F4, 4, 4, 1, 1));
+
+super.setImageFond9Images(new int[] {1,2,1,2,2,2,1,2,1}, 10, 10, 10, 10);
+
+super.setImageFond("D:\\Mes Documents\\Workspace\\bennetout-app\\EXPRESS_bennetout\\Gabarits\\WM\\210 Material Design Red\\Material Design Red_Btn_Std@dpi160.png?E5_3NP_10_10_10_10", 1, 0, 1, 1);
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+/**
+ * Traitement: Clic sur Read
+ */
+public void clicSurBoutonGauche()
+// SI SocketExiste("socket") = Vrai
+// 	sMsg est une chaîne = SocketLit("socket", Vrai)
+// 	toastAffiche(sMsg+"\n")
+// FIN
+{
+super.clicSurBoutonGauche();
+
+// SI SocketExiste("socket") = Vrai
+if(WDAPISocket.socketExiste(new WDChaineA("socket").getString()).opEgal(true))
+{
+// 	sMsgRaw est une chaîne = SocketLit("socket", Vrai)
+WDObjet vWD_sMsgRaw = new WDChaineA();
+
+
+vWD_sMsgRaw.setValeur(WDAPISocket.socketLit(new WDChaineA("socket").getString(),true));
+
+
+// 	Receive = sMsgRaw
+mWD_Receive.setValeur(vWD_sMsgRaw);
+
+}
+
+}
+
+
+
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+super.activerEcouteurClic();
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDRead mWD_Read;
+
+/**
+ * Receive
+ */
+class GWDReceive extends WDLibelle
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°8 de EXPRESS_Accueil.Receive
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2939002196123920912l);
+
+super.setChecksum("785948245");
+
+super.setNom("Receive");
+
+super.setType(3);
+
+super.setTypeSaisie(0);
+
+super.setMasqueSaisie(new WDChaineU("0"));
+
+super.setLibelle("Libellé");
+
+super.setNote("");
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(71, 85);
+
+super.setTailleInitiale(22, 229);
+
+super.setPlan(0);
+
+super.setCadrageHorizontal(0);
+
+super.setCadrageVertical(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(134217727, 134217727);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(8);
+
+super.setAncrageInitial(0, 1000, 1000, 1000, 1000);
+
+super.setEllipse(0);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(true);
+
+super.setStyleLibelle(0x222222, 0xFFFFFFFF, creerPolice_GEN("Roboto", -8.000000, 0), 3);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xE1E1E1, 0x616161, 0xFFFFFFFF, 4, 4, 1, 1));
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+/**
+ * Traitement: Initialisation de Receive
+ */
+public void init()
+{
+super.init();
+
+// Receive = "test"
+this.setValeur("test");
+
+}
+
+
+
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDReceive mWD_Receive;
+
+/**
  * #EXPRESSVersion
  */
 class GWD_EXPRESSVersion extends WDLibelle
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°6 de EXPRESS_Accueil.#EXPRESSVersion
+// Déclaration des champs du fils n°9 de EXPRESS_Accueil.#EXPRESSVersion
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
@@ -565,7 +892,7 @@ super.setTailleMax(2147483647, 2147483647);
 
 super.setVisibleInitial(true);
 
-super.setAltitude(6);
+super.setAltitude(9);
 
 super.setAncrageInitial(0, 1000, 1000, 1000, 1000);
 
@@ -654,14 +981,29 @@ int WD_ntabParamLen = 0;
 if(WD_tabParam!=null) WD_ntabParamLen = WD_tabParam.length;
 
 
-// InclinoX est un réel = 0
+// InclinoX est un réel = 2
 vWD_InclinoX = new WDReel();
 
-vWD_InclinoX.setValeur(0);
+vWD_InclinoX.setValeur(2);
 
 super.ajouterVariableGlobale("InclinoX",vWD_InclinoX);
 
 
+
+}
+
+
+
+
+/**
+ * Traitement: Fin d'initialisation de EXPRESS_Accueil
+ */
+public void init()
+{
+super.init();
+
+// Affichage_inclinoX = NumériqueVersChaîne(InclinoX)
+mWD_Affichage_inclinoX.setValeur(WDAPINum.numeriqueVersChaine(vWD_InclinoX));
 
 }
 
@@ -687,6 +1029,9 @@ mWD_BTN_inclinoX = new GWDBTN_inclinoX();
 mWD_Fond = new GWDFond();
 mWD_good = new GWDgood();
 mWD_not_good = new GWDnot_good();
+mWD_Connect = new GWDConnect();
+mWD_Read = new GWDRead();
+mWD_Receive = new GWDReceive();
 mWD__EXPRESSVersion = new GWD_EXPRESSVersion();
 mWD_Accueil = new GWDAccueil();
 mWD_EXPRESS_Accueil_LeftSliding = new GWDEXPRESS_Accueil_LeftSliding();
@@ -751,6 +1096,12 @@ mWD_good.initialiserObjet();
 super.ajouter("good", mWD_good);
 mWD_not_good.initialiserObjet();
 super.ajouter("not_good", mWD_not_good);
+mWD_Connect.initialiserObjet();
+super.ajouter("Connect", mWD_Connect);
+mWD_Read.initialiserObjet();
+super.ajouter("Read", mWD_Read);
+mWD_Receive.initialiserObjet();
+super.ajouter("Receive", mWD_Receive);
 mWD__EXPRESSVersion.initialiserObjet();
 super.ajouter("#EXPRESSVersion", mWD__EXPRESSVersion);
 mWD_Accueil.initialiserObjet();

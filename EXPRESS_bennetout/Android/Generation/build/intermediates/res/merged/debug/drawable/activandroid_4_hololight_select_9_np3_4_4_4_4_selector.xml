@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android"><item android:drawable="@drawable/activandroid_4_hololight_select_9_np3_4_4_4_4_selectordisabled" android:state_enabled="false"/><item android:drawable="@drawable/activandroid_4_hololight_select_9_np3_4_4_4_4_selectorpressed" android:state_pressed="true"/><item android:drawable="@drawable/activandroid_4_hololight_select_9_np3_4_4_4_4_selectorfocus" android:state_focused="true"/><item android:drawable="@drawable/activandroid_4_hololight_select_9_np3_4_4_4_4_selectornormal"/></selector>
-<!-- From: file:/D:/Mes%20Documents/Workspace/bennetout-app/EXPRESS_bennetout/Android/Generation/res/drawable/activandroid_4_hololight_select_9_np3_4_4_4_4_selector.xml -->
